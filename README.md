@@ -28,7 +28,7 @@ Run the generate script again to make a new fake certificate.  It will overwrite
 5. Run the update script.
 
 ```
-$ ./update-certificates.sh
+$ ./update-secrets.sh
 ```
 
 This will replace the certificate in every project that has the label `requires-ca-bundle=true`.
